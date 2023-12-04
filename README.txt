@@ -6,15 +6,15 @@ O projeto Batalha Naval implementa o conhecido jogo de tabuleiro em Java utiliza
 
 ## Setup 
 
-Para conseguir rodar o projeto, é necessário possuir instalada uma versão do Java acima do [JDK 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html), com o qual o jogo foi criado. 
+Para conseguir rodar o projeto, é necessário possuir instalada uma versão do Java acima do JDK 17 (https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html), com o qual o jogo foi criado. 
 
-Além disso, é necessário ter instalado o [JavaFX](https://gluonhq.com/products/javafx/), pelo menos a partir da versão SDK 19.
+Além disso, é necessário ter instalado o JavaFX (https://gluonhq.com/products/javafx/), pelo menos a partir da versão SDK 19.
 
 ### Execução
 
 Exitem algumas formas de fazer o projeto ser executado:
 
-#### **Arquivo Jar**
+#### Arquivo Jar
 
 Se você tem configurado em seu sistema o javaw.exe para abrir arquivos .jar, é possível executar diretamente o arquivo BatalhaNaval.jar
 
@@ -22,14 +22,14 @@ Se você tem configurado em seu sistema o javaw.exe para abrir arquivos .jar, é
 
 Acessando o diretório onde o projeto está localizado, digite os comandos abaixo:
 
-**Compilação**
-```
+Compilação
+
 javac --module-path "C:\Caminho\Para\JavaFX\lib" -d bin src\application\Main.java src\br\ufrn\imd\modelo\Navio.java src\br\ufrn\imd\modelo\Tabuleiro.java
-```
+
 **Execução**
-```
+
 java --module-path "C:\Caminho\Para\JavaFX\lib" -cp bin application.Main
-``` 
+
 
 #### IDE
 
@@ -41,4 +41,4 @@ Também é possível abrir o jogo diretamente de qualquer IDE configurada para p
 
 ### Documentação
 
-Toda a documentação do projeto, feita em javadoc, encontra-se na pasta **doc**, podendo ser acessada através do arquivo **index.html**
+Toda a documentação do projeto, feita em javadoc, encontra-se na pasta doc, podendo ser acessada através do arquivo index.html
