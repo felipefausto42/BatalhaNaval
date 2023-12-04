@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"br.ufrn.imd.modelo","l":"Tabuleiro.Celula"},{"p":"application","l":"Main"},{"p":"br.ufrn.imd.modelo","l":"Navio"},{"p":"br.ufrn.imd.modelo","l":"Tabuleiro"}];updateSearchResults();
